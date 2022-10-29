@@ -1,0 +1,179 @@
+* {
+    font-family: 'Kumbh', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #19a1ad;
+    display: flex;
+    justify-content: center;
+    place-content: center;
+}
+
+#background-top {
+    position: fixed;
+    width: 100%;
+    bottom: 60%;
+    right: 45%;
+}
+
+#background-bottom {
+    position: fixed;
+    width: 100%;
+    top: 65%;
+    left: 50%;
+}
+
+.card-info {
+    position: absolute;
+    background: #ffffff;
+    width: 85%;
+    height: 48%;
+    top: 30%;
+    left: 7%;
+    right: 7%;
+    border-radius: .625rem;
+}
+
+#profile-background {
+    width: 100%;
+    border-top-right-radius: .625rem;
+    border-top-left-radius: .625rem;
+}
+
+#profile-image {
+    position: fixed;
+    top: 40%;
+    left: 35%;
+    clip-path: circle(50%);
+}
+
+.avatar-name {
+    display: flex;
+    justify-content: center;
+    color: #323442;
+    font-size: 21px;
+    font-weight: 700;
+    margin-top: 4rem;
+}
+
+.avatar-name span {
+    color: #797979;
+    margin-left: 10px;
+    font-weight: 400;
+}
+
+.avatar-city {
+    color: #7d7d7f;
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+
+.avatar-insights {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+    border-top: 1px solid #e8e8e8;
+}
+
+#number-followers,
+#number-likes,
+#number-photos {
+    color: #262837;
+    font-size: 18px;
+    text-align: center;
+}
+
+#followers,
+#likes,
+#photos {
+    color: #bdbdbf;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 0.2;
+}
+
+@media screen and (min-width: 768px) {
+    .card-info {
+        position: absolute;
+        background: #ffffff;
+        width: 50%;
+        height: 45%;
+        top: 30%;
+        left: 40%;
+        right: 7%;
+        border-radius: .625rem;
+    }
+
+    #profile-image {
+        position: fixed;
+        top: 40%;
+        left: 57%;
+        clip-path: circle(50%);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .card-info {
+        position: absolute;
+        background: #ffffff;
+        width: 40%;
+        height: 52%;
+        top: 30%;
+        left: 30%;
+        right: 7%;
+        border-radius: .625rem;
+    }
+
+    #profile-image {
+        position: fixed;
+        top: 48%;
+        left: 45%;
+        clip-path: circle(50%);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    * {
+        font-family: 'Kumbh', sans-serif;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background: #19a1ad;
+        display: flex;
+        justify-content: center;
+        place-content: center;
+    }
+
+    #background-top {
+        position: absolute;
+        width: 100%;
+    }
+
+    #profile-background {
+        width: 100%;
+        border-top-right-radius: .625rem;
+        border-top-left-radius: .625rem;
+    }
+
+    .card-info {
+        position: absolute;
+        background: #ffffff;
+        width: 20%;
+        height: 42%;
+        top: 30%;
+        left: 40%;
+        right: 7%;
+        border-radius: .625rem;
+    }
+
+    #profile-image {
+        position: fixed;
+        top: 40%;
+        left: 47%;
+        clip-path: circle(50%);
+    }
+}
